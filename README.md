@@ -129,6 +129,8 @@ The following tools were used during the practical exercise.
 ## 5.1 WHOIS
 Purpose: Domain registration information gathering.
 
+whois 7.png
+
 WHOIS is a query and response protocol used to retrieve publicly available information about registered internet resources, including domain names.
 
 During a reconnaissance exercise, WHOIS can help identify:
