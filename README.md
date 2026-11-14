@@ -170,7 +170,7 @@ Attackers may also use technology fingerprinting to identify software associated
 ## 5.3 Nslookup
 Purpose: DNS resolution.
 
-nslookup.png
+![](nslookup.png)
 
 Nslookup is a command-line utility used to query DNS servers and retrieve information about domain names.
 
