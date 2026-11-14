@@ -149,6 +149,8 @@ A security professional can also use this information to establish an initial pi
 ## 5.2 WhatWeb
 Purpose: Website technology identification.
 
+whatweb.png
+
 WhatWeb is a web reconnaissance tool designed to identify technologies used by websites.
 
 It can detect information such as:
@@ -168,6 +170,8 @@ Attackers may also use technology fingerprinting to identify software associated
 ## 5.3 Nslookup
 Purpose: DNS resolution.
 
+nslookup.png
+
 Nslookup is a command-line utility used to query DNS servers and retrieve information about domain names.
 
 It helps determine how a domain name resolves to an IP address.
@@ -180,7 +184,7 @@ This information can help security professionals understand how internet-facing 
 
 ## 5.4 cURL
 Purpose: HTTP communication and response inspection.
-
+curl l.png
 cURL is a command-line tool used to transfer data to and from servers using supported network protocols.
 
 In this practical, I used the "-I" option to request HTTP response headers.
@@ -197,6 +201,8 @@ Why it matters in cybersecurity:
 Exposed HTTP headers may reveal technical information about a web application and help security professionals understand how a server responds to incoming requests.
 
 ## 5.5 WAFW00F
+
+waff00f.png
 Purpose: Web Application Firewall identification.
 
 WAFW00F is a security reconnaissance tool used to identify Web Application Firewalls protecting websites.
@@ -211,6 +217,7 @@ However, identifying a WAF does not automatically establish how effectively it p
 
 ## 5.6 DNSRecon
 Purpose: DNS enumeration.
+dnsrecon.png
 
 DNSRecon is a DNS reconnaissance tool used to collect information about DNS infrastructure.
 
@@ -579,7 +586,7 @@ For the second practical activity, I used Zenmap to perform network discovery on
 
 Network Configuration
 I first used the Windows ipconfig command to identify my local network configuration. I then used the following subnet as the target for the Zenmap scan.
-
+Screenshot 2026-11-13 083329
 Network Information	Result
 Target Subnet	192.168.56.0/24
 Scan Type	Ping Scan
@@ -592,7 +599,7 @@ After entering the subnet into Zenmap, I selected Ping Scan and initiated the sc
 The results identified three live hosts within the network.
 
 No.	IP Address	MAC Address
-1	192.168.56.1	Not displayed
+
 2	192.168.56.100	08:00:27:9E:D1:21
 3	192.168.56.101	08:00:27:DC:F0:92
 The scan confirmed that three hosts were active within the specified subnet. Two MAC addresses were returned in the scan output, both identified as Oracle VirtualBox virtual network interfaces.
