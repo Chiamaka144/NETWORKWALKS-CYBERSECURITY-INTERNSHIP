@@ -256,6 +256,8 @@ However, the presence of publicly available WHOIS information is not itself a vu
 
 WHOIS command: whois networkwalks.com
 
+whois7.png
+
 ## 6.2 Website Technology Identification Using WhatWeb
 After gathering domain registration information, I used WhatWeb to identify the technologies running on networkwalks.com.
 
