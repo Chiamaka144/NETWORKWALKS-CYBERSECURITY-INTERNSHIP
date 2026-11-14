@@ -129,7 +129,7 @@ The following tools were used during the practical exercise.
 ## 5.1 WHOIS
 Purpose: Domain registration information gathering.
 
-whois 7.png
+ ![](whois 7.png)
 
 WHOIS is a query and response protocol used to retrieve publicly available information about registered internet resources, including domain names.
 
@@ -149,7 +149,7 @@ A security professional can also use this information to establish an initial pi
 ## 5.2 WhatWeb
 Purpose: Website technology identification.
 
-whatweb.png
+![](whatweb.png)
 
 WhatWeb is a web reconnaissance tool designed to identify technologies used by websites.
 
@@ -202,7 +202,7 @@ Exposed HTTP headers may reveal technical information about a web application an
 
 ## 5.5 WAFW00F
 
-waff00f.png
+![](waff00f.png)
 Purpose: Web Application Firewall identification.
 
 WAFW00F is a security reconnaissance tool used to identify Web Application Firewalls protecting websites.
@@ -217,7 +217,7 @@ However, identifying a WAF does not automatically establish how effectively it p
 
 ## 5.6 DNSRecon
 Purpose: DNS enumeration.
-dnsrecon.png
+![](dnsrecon.png)
 
 DNSRecon is a DNS reconnaissance tool used to collect information about DNS infrastructure.
 
@@ -265,7 +265,7 @@ However, the presence of publicly available WHOIS information is not itself a vu
 
 WHOIS command: whois networkwalks.com
 
-whois7.png
+![](whois7.png)
 
 ## 6.2 Website Technology Identification Using WhatWeb
 After gathering domain registration information, I used WhatWeb to identify the technologies running on networkwalks.com.
@@ -586,7 +586,7 @@ For the second practical activity, I used Zenmap to perform network discovery on
 
 Network Configuration
 I first used the Windows ipconfig command to identify my local network configuration. I then used the following subnet as the target for the Zenmap scan.
-Screenshot 2026-11-13 083329
+![](Screenshot 2026-11-13 083329)
 Network Information	Result
 Target Subnet	192.168.56.0/24
 Scan Type	Ping Scan
